@@ -1,0 +1,79 @@
+.header{
+  background-color: white;
+  padding: 30px;
+  box-shadow:0 0 10px 0 rgba(0,0,0,0.3) ;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.header Link{
+  color: black;
+}
+
+.todo{
+  background-color: blanchedalmond;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+ 
+}
+.todo form{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 70vmax;
+  display: flex;
+  
+
+}
+textarea,button,input{
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+
+} 
+button{
+  background-color: rgba(0, 0, 0, 0.578);
+  color: white;
+}
+
+.task{
+  background-color: white;
+  width: 70vmax;
+  height: 20vmax;
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius:10px ;
+  
+
+}
+.task div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+
+  
+}
+
+.task button{
+  border-radius: 100px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  justify-content: center;
+  float: right;
+}
+.task button:hover{
+  background-color: red;
+}
+
+
+
+.image  img{
+  width: 300px;
+  height: 300px;
+ 
+  
+}
